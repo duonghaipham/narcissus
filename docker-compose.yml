@@ -1,8 +1,0 @@
-services:
-  app:
-    image: narcissus:v1
-    ports:
-      - "${PUBLIC_PORT}:${PORT}"
-    restart: unless-stopped
-    environment:
-      PORT: ${PORT}
